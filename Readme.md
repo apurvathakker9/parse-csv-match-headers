@@ -1,7 +1,5 @@
 # CSV File Header Mapping
 
-This project uses node version 18.1.0
-
 ## About
 This app parses CSV files and created data as JavaScript objects by letting users map column headers to existing object properties.
 
@@ -23,3 +21,10 @@ Steps -
 3. A Pop-up is displayed with drop-downs to let users map un-common columns.
 4. Once the values are selected from the dropdown, the user will click the Import button.
 5. The mapping is used to convert the data into object and upload to a API.
+
+## Dev Environment
+
+- Use node version 18.1.0.
+- Open the folder in your code editor.
+- Open your terminal and install node_modules  `npm install`
+- Once done, to run the project on your browser use command `npm run start`.
